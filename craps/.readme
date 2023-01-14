@@ -1,3 +1,20 @@
-### Craps Like Game
+[![Netlify Status](https://api.netlify.com/api/v1/badges/553bba32-d78b-416d-b319-1fa77588b5d5/deploy-status)](https://app.netlify.com/sites/kindalikecrapsgame/deploys)
+<<<<<<< HEAD
 
-## Roll Dice & Hit 7 or 11 Crap Out
+# Simple Craps Game
+
+This is a very simple static HTML site with some JavaScript for the game logic. Idea of the game is to roll the dice, as long as you don't hit 7 or 11 you get to roll again. As you roll you will accumulate points based on the dice. For example if you roll a 5 and a 3 you will get 8 points. At any point you can choose to hold and keep accumulated points an pass to next player. If you do hit a 7 or 11 you will loose any accumulated points for that turn. First person to 100 wins!!
+
+## Installation
+
+Just download the craps folder and run the index.html file to start playing.
+
+## Author
+
+John Downs
+
+## License
+
+# MIT
+
+> > > > > > > ba35e614486eef60aeac727ac525a7f5c886ff20
