@@ -188,3 +188,46 @@ main {
   font-weight: 700;
   z-index: 999;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding-top: 8rem;
+  }
+  main {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .player {
+    align-items: stretch;
+  }
+  .player--0 {
+    flex-basis: 100%;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+  .btn--new {
+    top: 2rem;
+  }
+  .dice {
+    left: 85%;
+    top: 45%;
+  }
+  .dice--1 {
+    left: 15%;
+    top: 45%;
+}
+}
+@media screen and (max-width: 926px) and (min-width: 601px) {
+  body {
+    padding-top: 2rem;
+  }
+  .btn--new {
+    top: 10rem;
+  }
+}
