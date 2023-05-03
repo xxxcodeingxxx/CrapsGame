@@ -62,7 +62,7 @@ btnRoll.addEventListener('click', function () {
     dice1_DomEl.src = `dice-${dice}.png`;
     dice2_DomEl.src = `dice-${dice2}.png`;
 
-    // 3. Check for rolled 1: if true, switch to next player
+    // 3. Check for rolled 7 or 11 if true, switch to next player
 
     if (diceTotal === 7 || diceTotal === 11) {
       // Add dice to current score
